@@ -46,7 +46,7 @@ class  Employee: virtual public Person {
 };
 int main(){
    Student p;
-        p.setData("John Doe", 12345);
+        p.setData("Shivam", 38040);
         p.setData_student("B.Sc CS(H)" ,2,89.98);
         p.displayData_student();
     Employee e;
