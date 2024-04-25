@@ -50,7 +50,7 @@ int main(){
         p.setData_student("B.Sc CS(H)" ,2,89.98);
         p.displayData_student();
     Employee e;
-    e.setData("John Doe", 12345);
+    e.setData("Dhoni", 12345);
     e.setData_Employee("CS",70000.97);
     e.displayData_Employee();
 
