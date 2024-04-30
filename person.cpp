@@ -10,7 +10,7 @@ class Person{
         name=n;
         Id=a;
     }
-    void displayData(){
+  virtual  void displayData(){
         cout<<"Name of this person is "<<name<<" and the ID is "<<Id<<"."<<endl;
     }
 };
