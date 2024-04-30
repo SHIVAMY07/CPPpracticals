@@ -30,14 +30,7 @@ public:
         }
     }
     
-void printMatrix(const vector<vector<int>>& matrix) {
-    for (const auto& row : matrix) {
-        for (int num : row) {
-            std::cout << num << " ";
-        }
-        std::cout << std::endl;
-    }
-}
+
     Matrix add(const Matrix &other) {
         Matrix result(rows, cols);
         for (int i = 0; i < rows; ++i) {
